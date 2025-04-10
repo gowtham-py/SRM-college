@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        header{
+            background-color: chocolate;
+            color: rgb(234, 250, 215);
+            padding: 2px;
+            text-align: center;
+        
+        }
+            footer {
+            background-color: #3c2e24;
+            color: white;
+            text-align: center;
+            padding: 3px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<head>
+    <title >Course Registration</title>
+    <link rel="icon" href="image/image.png">
+</head>
+
+<body>
+<center>
+    <header>
+        <h1 aria-setsize="35px">SRM UNIVERSITY</h1>
+        <p>Ramapuram campus</p>
+    </header>
+    <h3>Course Registration</h3>
+    <h6> Freshers guide| New welcomers</h6>
+    <p>Shaping Future Leaders with Innovation and Excellence</p>
+    <form id="srm-registration">
+    </center>
+    <hr>
+<center>
+    <form>
+        <table border="3">
+            <tr>
+                <td>Name:</td> 
+                <td><input type="text" placeholder="Enter your name"></td>
+            </tr>
+            <tr>
+                <td>Age:</td> 
+                <td><input type="number" placeholder="Enter your age"></td>
+            </tr>
+            <tr>
+                <td>Address:</td> 
+                <td><input type="text" placeholder="Enter your address"></td>
+
+            </tr>
+            <tr>
+                <td>Gender:</td> 
+                <td><input type="radio" name="Gender">Male 
+                    <input type="radio" name="Gender">Female</td>
+            </tr>
+            <tr>
+                <td>Aim:</td>
+                <td><input type="text" placeholder="Enter your AIM"></td>
+            </tr>
+            <tr>
+                <td>select the course</td>
+                <td>
+                    <select>
+                        <option>Bsc</option>
+                        <option>Bcom</option>
+                        <option>Bca</option>
+                        <option>BBA</option>
+                        <option>Be</option>
+                        <option>Btech</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit"> <input type="reset"></td>
+            </tr>
+
+        </table>
+    </form>
+</center>
+<hr>
+<center>
+    <p>
+        <a href="choco.html">Menu</a>
+    </p>
+    
+</center>
+<center>   
+    <footer>
+      &copy;2026 srm university
+    </footer>
+</center>
+<script>
+    document.getElementById('srm-registration').addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert('Registration submitted!');
+    });
+</script>
+
+</body>
+</html>
